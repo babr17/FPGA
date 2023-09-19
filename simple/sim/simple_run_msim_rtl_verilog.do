@@ -7,7 +7,7 @@ vmap work rtl_work
 
 vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/INV.sv}
 vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/simple.sv}
-vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/cum.sv}
+vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/cumpt.sv}
 
 vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src/../tb {A:/intelFPGA/proj/simple/src/../tb/tb.sv}
 

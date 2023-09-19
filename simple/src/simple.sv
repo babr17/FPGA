@@ -4,7 +4,7 @@ logic [3:0] INV;
 
 
 
-cum cum(.HEX0(HEX0),.INV(INV));	 
+cumpt cumpt(.HEX0(HEX0),.INV(INV));	 
 INV inv1(.SW(SW),.INV(INV));
 
 endmodule

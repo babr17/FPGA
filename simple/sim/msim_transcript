@@ -13,79 +13,64 @@
 # 
 # vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/INV.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:05:36 on Sep 19,2023
+# Start time: 17:29:22 on Sep 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+A:/intelFPGA/proj/simple/src" A:/intelFPGA/proj/simple/src/INV.sv 
 # -- Compiling module INV
 # 
 # Top level modules:
 # 	INV
-# End time: 17:05:36 on Sep 19,2023, Elapsed time: 0:00:00
+# End time: 17:29:22 on Sep 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/simple.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:05:36 on Sep 19,2023
+# Start time: 17:29:22 on Sep 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+A:/intelFPGA/proj/simple/src" A:/intelFPGA/proj/simple/src/simple.sv 
 # -- Compiling module simple
 # 
 # Top level modules:
 # 	simple
-# End time: 17:05:36 on Sep 19,2023, Elapsed time: 0:00:00
+# End time: 17:29:22 on Sep 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/cum.sv}
+# vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/cumpt.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:05:36 on Sep 19,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+A:/intelFPGA/proj/simple/src" A:/intelFPGA/proj/simple/src/cum.sv 
-# -- Compiling module cum
+# Start time: 17:29:22 on Sep 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+A:/intelFPGA/proj/simple/src" A:/intelFPGA/proj/simple/src/cumpt.sv 
+# -- Compiling module cumpt
 # 
 # Top level modules:
-# 	cum
-# End time: 17:05:36 on Sep 19,2023, Elapsed time: 0:00:00
+# 	cumpt
+# End time: 17:29:22 on Sep 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src/../tb {A:/intelFPGA/proj/simple/src/../tb/tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:05:36 on Sep 19,2023
+# Start time: 17:29:22 on Sep 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+A:/intelFPGA/proj/simple/src/../tb" A:/intelFPGA/proj/simple/src/../tb/tb.sv 
 # -- Compiling module tb
 # 
 # Top level modules:
 # 	tb
-# End time: 17:05:36 on Sep 19,2023, Elapsed time: 0:00:00
+# End time: 17:29:22 on Sep 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
-# Start time: 17:05:36 on Sep 19,2023
+# Start time: 17:29:22 on Sep 19,2023
 # Loading sv_std.std
 # Loading work.tb
 # Loading work.simple
-# Loading work.cum
+# Loading work.cumpt
 # Loading work.INV
-# ** Error: (vsim-3389) A:/intelFPGA/proj/simple/src/../tb/tb.sv(10): Port 'INV' not found in the connected module (3rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/testbench File: A:/intelFPGA/proj/simple/src/simple.sv
-# ** Fatal: (vsim-3365) A:/intelFPGA/proj/simple/src/../tb/tb.sv(10): Too many port connections. Expected 2, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb/testbench File: A:/intelFPGA/proj/simple/src/simple.sv
-# FATAL ERROR while loading design
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./simple_run_msim_rtl_verilog.do PAUSED at line 14
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" work.tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" work.tb 
-# Start time: 17:05:36 on Sep 19,2023
-# Loading sv_std.std
-# Loading work.tb
-# Loading work.simple
-# Loading work.cum
-# Loading work.INV
-# ** Error: (vsim-3389) A:/intelFPGA/proj/simple/src/../tb/tb.sv(10): Port 'INV' not found in the connected module (3rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /tb/testbench File: A:/intelFPGA/proj/simple/src/simple.sv
-# ** Fatal: (vsim-3365) A:/intelFPGA/proj/simple/src/../tb/tb.sv(10): Too many port connections. Expected 2, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /tb/testbench File: A:/intelFPGA/proj/simple/src/simple.sv
-# FATAL ERROR while loading design
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./simple_run_msim_rtl_verilog.do PAUSED at line 14
-# End time: 17:07:21 on Sep 19,2023, Elapsed time: 0:01:45
-# Errors: 4, Warnings: 0
+# ** Warning: (vsim-3839) A:/intelFPGA/proj/simple/src/../tb/tb.sv(16): Variable '/tb/HEX0', driven via a port connection, is multiply driven. See A:/intelFPGA/proj/simple/src/../tb/tb.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: A:/intelFPGA/proj/simple/src/../tb/tb.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# babr
+# babr
+# End time: 17:29:31 on Sep 19,2023, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1

@@ -1,5 +1,5 @@
 Flow report for simple
-Tue Sep 19 17:07:25 2023
+Tue Sep 19 17:29:12 2023
 Quartus Prime Version 17.1.1 Internal Build 593 12/11/2017 SJ Standard Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------------+
 ; Flow Summary                                                                               ;
 +---------------------------------+----------------------------------------------------------+
-; Flow Status                     ; Successful - Tue Sep 19 17:07:25 2023                    ;
+; Flow Status                     ; Successful - Tue Sep 19 17:29:12 2023                    ;
 ; Quartus Prime Version           ; 17.1.1 Internal Build 593 12/11/2017 SJ Standard Edition ;
 ; Revision Name                   ; simple                                                   ;
 ; Top-level Entity Name           ; simple                                                   ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/19/2023 17:07:17 ;
+; Start date & time ; 09/19/2023 17:29:04 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; simple              ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 127913729281011.169513243620644        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 127913729281011.169513374402472        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb1            ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb                                     ; --            ; --          ; eda_simulation ;
@@ -110,8 +110,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4836 MB             ; 00:00:18                           ;
-; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:18                           ;
+; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4836 MB             ; 00:00:18                           ;
+; Total                ; 00:00:08     ; --                      ; --                  ; 00:00:18                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
