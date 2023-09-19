@@ -1,0 +1,28 @@
+'timescale 1 ps/1 ps
+
+module tb();
+
+logic [3:0] INV;
+logic [3:0] SW;
+logic [6:0] HEX0;
+
+
+simple testbench(.SW(SW), .INV(INV) , .HEX0(HEX));
+
+
+initial 
+begin
+[3:0] SW = 4'b0000;
+[6:0] HEX0 = 6'b000000;
+[3:0] INV = 4'b0000;
+
+# 15;
+
+[3:0] SW = 4'b0101; 
+
+
+# 20;
+
+end
+
+endmodule

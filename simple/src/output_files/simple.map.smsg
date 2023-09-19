@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at simple.sv(2): object "INV1" differs only in case from object "inv1" in the same scope File: C:/intelFPGA/proj/simple/src/simple.sv Line: 2
