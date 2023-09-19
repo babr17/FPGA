@@ -13,49 +13,49 @@
 # 
 # vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/INV.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:29:22 on Sep 19,2023
+# Start time: 17:47:17 on Sep 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+A:/intelFPGA/proj/simple/src" A:/intelFPGA/proj/simple/src/INV.sv 
 # -- Compiling module INV
 # 
 # Top level modules:
 # 	INV
-# End time: 17:29:22 on Sep 19,2023, Elapsed time: 0:00:00
+# End time: 17:47:17 on Sep 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/simple.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:29:22 on Sep 19,2023
+# Start time: 17:47:17 on Sep 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+A:/intelFPGA/proj/simple/src" A:/intelFPGA/proj/simple/src/simple.sv 
 # -- Compiling module simple
 # 
 # Top level modules:
 # 	simple
-# End time: 17:29:22 on Sep 19,2023, Elapsed time: 0:00:00
+# End time: 17:47:17 on Sep 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src {A:/intelFPGA/proj/simple/src/cumpt.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:29:22 on Sep 19,2023
+# Start time: 17:47:17 on Sep 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+A:/intelFPGA/proj/simple/src" A:/intelFPGA/proj/simple/src/cumpt.sv 
 # -- Compiling module cumpt
 # 
 # Top level modules:
 # 	cumpt
-# End time: 17:29:22 on Sep 19,2023, Elapsed time: 0:00:00
+# End time: 17:47:17 on Sep 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+A:/intelFPGA/proj/simple/src/../tb {A:/intelFPGA/proj/simple/src/../tb/tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:29:22 on Sep 19,2023
+# Start time: 17:47:17 on Sep 19,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+A:/intelFPGA/proj/simple/src/../tb" A:/intelFPGA/proj/simple/src/../tb/tb.sv 
 # -- Compiling module tb
 # 
 # Top level modules:
 # 	tb
-# End time: 17:29:22 on Sep 19,2023, Elapsed time: 0:00:00
+# End time: 17:47:17 on Sep 19,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
-# Start time: 17:29:22 on Sep 19,2023
+# Start time: 17:47:17 on Sep 19,2023
 # Loading sv_std.std
 # Loading work.tb
 # Loading work.simple
@@ -72,5 +72,13 @@
 # run -all
 # babr
 # babr
-# End time: 17:29:31 on Sep 19,2023, Elapsed time: 0:00:09
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" work.cumpt
+# End time: 17:47:27 on Sep 19,2023, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" work.cumpt 
+# Start time: 17:47:27 on Sep 19,2023
+# Loading sv_std.std
+# Loading work.cumpt
+# WARNING: No extended dataflow license exists
+# End time: 17:48:17 on Sep 19,2023, Elapsed time: 0:00:50
 # Errors: 0, Warnings: 1

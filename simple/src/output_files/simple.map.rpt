@@ -1,5 +1,5 @@
 Analysis & Synthesis report for simple
-Tue Sep 19 17:29:12 2023
+Tue Sep 19 17:44:08 2023
 Quartus Prime Version 17.1.1 Internal Build 593 12/11/2017 SJ Standard Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                               ;
 +---------------------------------+----------------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Sep 19 17:29:12 2023                    ;
+; Analysis & Synthesis Status     ; Successful - Tue Sep 19 17:44:08 2023                    ;
 ; Quartus Prime Version           ; 17.1.1 Internal Build 593 12/11/2017 SJ Standard Edition ;
 ; Revision Name                   ; simple                                                   ;
 ; Top-level Entity Name           ; simple                                                   ;
@@ -261,7 +261,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.1 Internal Build 593 12/11/2017 SJ Standard Edition
-    Info: Processing started: Tue Sep 19 17:29:04 2023
+    Info: Processing started: Tue Sep 19 17:44:00 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off simple -c simple
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -290,7 +290,7 @@ Info (21057): Implemented 14 device resources after synthesis - the final resour
     Info (21061): Implemented 3 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
     Info: Peak virtual memory: 4836 megabytes
-    Info: Processing ended: Tue Sep 19 17:29:12 2023
+    Info: Processing ended: Tue Sep 19 17:44:08 2023
     Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:18
 
