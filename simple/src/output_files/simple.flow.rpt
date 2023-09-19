@@ -1,5 +1,5 @@
 Flow report for simple
-Tue Sep 19 12:32:50 2023
+Tue Sep 19 17:07:25 2023
 Quartus Prime Version 17.1.1 Internal Build 593 12/11/2017 SJ Standard Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------------+
 ; Flow Summary                                                                               ;
 +---------------------------------+----------------------------------------------------------+
-; Flow Status                     ; Successful - Tue Sep 19 12:32:49 2023                    ;
+; Flow Status                     ; Successful - Tue Sep 19 17:07:25 2023                    ;
 ; Quartus Prime Version           ; 17.1.1 Internal Build 593 12/11/2017 SJ Standard Edition ;
 ; Revision Name                   ; simple                                                   ;
 ; Top-level Entity Name           ; simple                                                   ;
@@ -49,7 +49,7 @@ refer to the applicable agreement for further details.
 ; Timing Models                   ; Final                                                    ;
 ; Logic utilization (in ALMs)     ; N/A                                                      ;
 ; Total registers                 ; 0                                                        ;
-; Total pins                      ; 7                                                        ;
+; Total pins                      ; 11                                                       ;
 ; Total virtual pins              ; 0                                                        ;
 ; Total block memory bits         ; 0                                                        ;
 ; Total DSP Blocks                ; 0                                                        ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/19/2023 12:32:33 ;
+; Start date & time ; 09/19/2023 17:07:17 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; simple              ;
 +-------------------+---------------------+
@@ -78,15 +78,21 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 125783848903195.169511595303664        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 127913729281011.169513243620644        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb1            ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb                                     ; --            ; --          ; eda_simulation ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR        ; A:/intelFPGA/proj/simple/sim           ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_FILE                  ; ../tb/SystemVerilog3.sv                ; --            ; --          ; tb             ;
+; EDA_TEST_BENCH_FILE                  ; ../tb/tb.sv                            ; --            ; --          ; tb             ;
+; EDA_TEST_BENCH_FILE                  ; simple.sv                              ; --            ; --          ; tb1            ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb                                     ; --            ; --          ; tb             ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb1                                    ; --            ; --          ; tb1            ;
 ; EDA_TEST_BENCH_NAME                  ; tb                                     ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; tb1                                    ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 100 ps                                 ; --            ; --          ; tb1            ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
@@ -104,8 +110,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4785 MB             ; 00:00:38                           ;
-; Total                ; 00:00:17     ; --                      ; --                  ; 00:00:38                           ;
+; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4836 MB             ; 00:00:18                           ;
+; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:18                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,7 +120,7 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; LAPTOP-ISEDSMBU  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-B23754C  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

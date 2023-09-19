@@ -64,5 +64,12 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb -section_id tb
 set_global_assignment -name SYSTEMVERILOG_FILE ../tb/tb3.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../tb/tb.sv
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "A:/intelFPGA/proj/simple/sim" -section_id eda_simulation
+set_global_assignment -name SYSTEMVERILOG_FILE SystemVerilog2.sv
 set_global_assignment -name EDA_TEST_BENCH_FILE ../tb/tb.sv -section_id tb
+set_global_assignment -name EDA_TEST_BENCH_NAME tb1 -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb1
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "100 ps" -section_id tb1
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb1 -section_id tb1
+set_global_assignment -name EDA_TEST_BENCH_FILE simple.sv -section_id tb1
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
