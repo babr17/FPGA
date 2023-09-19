@@ -1,6 +1,0 @@
-module inv(input [3:0] SW, output [3:0] INV);
-
-assign [3:0]INV = ~[3:0] SW;
-
-endmodule
-
